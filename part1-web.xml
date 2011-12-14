@@ -1,0 +1,30 @@
+<web-app>
+	<servlet>
+		<servlet-name>MyBasket</servlet-name>
+		<jsp-file>/index.jsp</jsp-file>
+		<init-param>
+			<param-name>Water</param-name>
+			<param-value>4</param-value>
+                </init-param>
+                <init-param>
+                        <param-name>Cafe</param-name>
+			<param-value>1.5</param-value>
+                </init-param>
+                <init-param>
+			<param-name>Sugar</param-name>
+			<param-value>12</param-value>
+		</init-param>
+                <init-param>
+			<param-name>myCode</param-name>
+			<param-value>http://www.in.gr</param-value>
+		</init-param>
+                <init-param>
+			<param-name>myInfo</param-name>
+			<param-value>http://www.nba.com</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyBasket</servlet-name>
+		<url-pattern>/index.jsp</url-pattern>
+	</servlet-mapping>
+</web-app>
