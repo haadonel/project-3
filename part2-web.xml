@@ -22,11 +22,11 @@
         
         <context-param>
 			<param-name>myCode</param-name>
-			<param-value>http://www.in.gr</param-value>
+			<param-value>https://github.com/haadonel/project-3</param-value>
 		</context-param>
                 <context-param>
 			<param-name>myInfo</param-name>
-			<param-value>http://www.nba.com</param-value>
+			<param-value>http:haadonel.wordpress.com</param-value>
 		</context-param>
         
         
